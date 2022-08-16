@@ -1,0 +1,17 @@
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+  opacity: 0;
+  transform: scale(1, 0.5);
+  //   transition-duration: 500ms;
+  //   transition-timing-function: var(--time-func-cubic);
+  //   //   transition-property: opacity;
+}

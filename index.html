@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>MM LUCE</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__img"
+        src="./images/logo.png"
+        alt="logo"
+        width="92"
+        height="46"
+      />
+      <a href="mailto:mmluceusa@gmail.com" class="link header__link"
+        >Email us</a
+      >
+    </header>
+    <main class="main">
+      <section class="section hero">
+        <div class="container">
+          <h1 class="hero__title">Welcome to the mm luce usa</h1>
+          <h2 class="hero__side-text">
+            This is the United States Portal to the
+            <a
+              href="https://mmluce.com/en/"
+              rel="noopener noreferrer nofollow"
+              class="side-text--link"
+              >MM LUCE ITALY</a
+            >
+          </h2>
+          <div class="hero__contact">
+            <p class="hero__text">
+              Please contact us and we will send you the US information on any
+              of
+              <span class="text--accent">MM LUCE</span> products with <br />
+              UL Certification, ETL Certification and North American Standards
+            </p>
+            <a class="main-button" href="mailto:mmluceusa@gmail.com"
+              >Email us</a
+            >
+          </div>
+          <img class="arrow--down" src="./images/arrow.svg" alt="arrow" />
+        </div>
+      </section>
+      <section class="section products">
+        <div class="container">
+          <h2 class="section__title">Products</h2>
+          <ul class="products__list list" data-modal-open>
+            <li class="list__item">
+              <img src="./images/prod-1.jpg" alt="product1" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-2.jpg" alt="product2" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-3.jpg" alt="product3" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-4.jpg" alt="product4" />
+            </li>
+          </ul>
+          <ul
+            class="products__list list hidden"
+            id="sec-list"
+            data-modal-close
+            data-modal
+          >
+            <li class="list__item">
+              <img src="./images/prod-5.jpg" alt="product1" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-6.jpg" alt="product2" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-7.jpg" alt="product3" />
+            </li>
+            <li class="list__item">
+              <img src="./images/prod-8.jpg" alt="product4" />
+            </li>
+          </ul>
+          <ul class="list__dots list">
+            <li class="item__dot active--dot" data-dot-1></li>
+            <li class="item__dot" data-dot-2></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer--background">
+      <div class="container footer">
+        <p class="footer__text">
+          MM LUCE USA LLC 107 W. MICHIGAN AVENUE 4TH FLOOR KALAMAZOO, MI, 49007
+        </p>
+        <a
+          class="link footer__link"
+          href="https://www.instagram.com/mmlucesrl/"
+        >
+          <img class="icon-inst" src="./images/instagram.svg" alt="instagram" />
+          mmlucesrl</a
+        >
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(16, 16, 16, 0.17);
+  &__img {
+    max-height: 46px;
+  }
+
+  &__link {
+    border: 3px solid #cccccc;
+    border-radius: 30px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition-duration: 250ms;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($color: #ffffff, $alpha: 0.2);
+    }
+  }
+}

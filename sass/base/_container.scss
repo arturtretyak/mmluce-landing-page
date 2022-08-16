@@ -1,0 +1,19 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  @include device(mob) {
+    width: 480px;
+  }
+
+  @include device(tab) {
+    width: 768px;
+  }
+
+  @include device(desk) {
+    width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

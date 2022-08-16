@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--sec-black-color);
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    max-width: 115px;
+    height: auto;
+
+    color: var(--sec-gray-color);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @include device(desk) {
+      font-size: 14px;
+      max-width: 173px;
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(12 / 10);
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: var(--gray-color);
+
+    display: flex;
+    align-items: center;
+
+    @include device(desk) {
+      font-size: 14px;
+      //   line-height: 16px;
+    }
+  }
+
+  &--background {
+    background-color: var(--sec-black-color);
+  }
+}
+
+.icon-inst {
+  margin-right: 5px;
+}
